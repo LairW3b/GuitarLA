@@ -32,4 +32,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 # GuitarLA
+
+## Obtener Datos en Next.js
+
+ Nexst.js te ofrece 3 formas de obtener datos de una API 
+
+ getStaticProps - Obtener los datos cuando se crea el build
+
+ getStaticPaths - Obtener el listado de páginas que se van a crear cuando se realiza el build
+
+ getServerSideProps - Los datos se obtienen en cada request
+
+## Cuando se utilizan 
+
+**StaticProps** cuando la información no cambia en cada request: 
+una página informativa, documentación, trámites, anuncios.
+
+**ServerSideProps** cuando la información cambia de forma continua en cada request o
+donde la página se actualiza cada poco tiempo (un ejemplo un deliveri donde necesitas saber donde esta tu pedido)
